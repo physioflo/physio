@@ -1,0 +1,29 @@
+WEBSITE PHYSIOTHERAPIE VOITHOFER – Hinweise
+===========================================
+
+1) ONLINE STELLEN
+   Den gesamten Inhalt dieses Ordners (nicht den Ordner selbst) per FTP/Dateimanager
+   in das Hauptverzeichnis von physio-voithofer.at hochladen. Die Startseite ist index.html.
+   Lokal ansehen: index.html per Doppelklick im Browser öffnen.
+
+2) FOTO: Dein Portrait ist bereits eingebaut (img/florian.jpg). Zum Tauschen die Datei gleichen Namens überschreiben.
+   Das Foto erscheint auf der Startseite und auf "Über mich". Neue Fotos im Hochformat (4:5, ca. 1000 x 1250 Pixel) passen am besten.
+
+3) BITTE PRÜFEN / ERGÄNZEN
+   - Impressum und Datenschutz: gelb markierte Stellen ergänzen (Hosting-Anbieter,
+     Aufsichtsbehörde/Berufsverband) und die Texte kurz rechtlich gegenprüfen lassen.
+   - Behandlungszeiten (Mo 06:00 bis 20:00, Mi 13:00 bis 20:00, Fr 06:00 bis 12:00) sind in allen Seiten und im
+     Google-Datenblock der Startseite eingetragen – bei Änderung bitte anpassen.
+   - Domain: Die Seite geht von https://physio-voithofer.at (ohne www) aus.
+     Falls ihr mit www arbeitet, in den Dateien "physio-voithofer.at" entsprechend ersetzen.
+
+4) GOOGLE (damit die Seite gefunden wird)
+   - Nach dem Hochladen die Seite in der Google Search Console anmelden und
+     https://physio-voithofer.at/sitemap.xml einreichen.
+   - Im Google Unternehmensprofil die Website-Adresse eintragen, Fotos ergänzen,
+     Öffnungszeiten pflegen und weiter Bewertungen sammeln. Das ist bei der Suche
+     "Physiotherapie St. Johann im Pongau" der wichtigste Hebel neben der Website.
+
+5) ORDNER
+   css/ js/ fonts/ img/  – Gestaltung, Schriften (lokal, kein Google Fonts), Logo-Dateien.
+   img/ enthält das Logo als Vektor (SVG) in Grün, Schwarz und Weiß.
