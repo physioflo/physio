@@ -120,7 +120,9 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .brand:hover img{transform:rotate(-8deg)}
 .brand-text{display:flex;flex-direction:column;line-height:1.15}
 .brand-name{font:500 16px/1.15 var(--sans);letter-spacing:-.01em;color:var(--ink)}
-.brand-sub{font:500 10.5px/1.2 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.brand-sub{font:500 10.5px/1.2 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:4px;white-space:nowrap}
+.brand-name{white-space:nowrap}
+@media (max-width:380px){.brand{gap:10px}.brand-name{font-size:14.5px}.brand-sub{font-size:9px;letter-spacing:.14em}}
 
 .nav{display:flex;align-items:center;gap:clamp(18px,2.4vw,38px)}
 .nav a.nav-link{
@@ -414,3 +416,13 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .badge-wrap .badge{margin-left:0;font-size:13px;padding:10px 18px 9px}
 .related .badge{margin-left:12px;font-size:11px;padding:6px 11px 5px;letter-spacing:.12em}
 .row-title .badge{display:flex;width:max-content;margin:14px 0 0}
+
+/* Über mich: Foto neben dem Text auch am Handy */
+@media (max-width:900px){
+  .about-hero{grid-template-columns:minmax(0,1fr) minmax(0,38%);gap:0 20px;align-items:start !important}
+  .about-hero .split-body{grid-column:1 !important;margin:0 !important}
+  .about-hero .split-media{grid-column:2 !important;margin:0 !important}
+  .about-hero .portrait{max-width:none}
+  .about-hero h1{font-size:clamp(2rem,9vw,3rem);overflow-wrap:anywhere}
+  .about-hero .lead{font-size:1rem;line-height:1.6;margin-top:22px !important}
+}
