@@ -11,8 +11,7 @@
   /* Start-Animation: 1,4 s Logo, danach Ausblenden */
   var splashOn = doc.classList.contains('splash-on');
   if (splashOn) {
-    setTimeout(function () { doc.classList.add('splash-done'); }, 1400);
-    setTimeout(function () { doc.classList.remove('splash-on', 'splash-done'); }, 1950);
+    setTimeout(function () { doc.classList.remove('splash-on'); }, 2000);
   }
 
   /* Mobiles Menü */
@@ -46,7 +45,9 @@
 
   /* Einblenden beim Scrollen */
   var items = document.querySelectorAll('[data-reveal], .step');
+  var marks = document.querySelectorAll('.hero-mark');
   function startReveal() {
+  marks.forEach(function (m) { m.classList.add('is-in'); });
   if ('IntersectionObserver' in window && !reduce) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
@@ -58,7 +59,7 @@
     items.forEach(function (el) { el.classList.add('is-in'); });
   }
   }
-  if (splashOn) { setTimeout(startReveal, 1350); } else { startReveal(); }
+  if (splashOn) { setTimeout(startReveal, 1500); } else { startReveal(); }
 
   /* Jahr im Footer */
   var y = document.getElementById('year');
