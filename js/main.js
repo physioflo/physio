@@ -27,7 +27,7 @@
     burger.addEventListener('click', function () { setMenu(!doc.classList.contains('menu-open')); });
     nav.addEventListener('click', function (e) { if (e.target.closest('a')) setMenu(false); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setMenu(false); });
-    window.addEventListener('resize', function () { if (window.innerWidth > 1020) setMenu(false); });
+    window.addEventListener('resize', function () { if (window.innerWidth > 1180) setMenu(false); });
   }
 
   /* Scroll-Zustand (Header, Parallax, Anruf-Button) */

@@ -138,7 +138,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .menu-open .burger span:nth-child(1){top:21px;transform:rotate(45deg)}
 .menu-open .burger span:nth-child(2){top:21px;transform:rotate(-45deg)}
 
-@media (max-width:1020px){
+@media (max-width:1180px){
   .burger{display:block}
   .nav{
     position:fixed;inset:var(--header-h) 0 0 0;background:var(--paper);flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:0;
